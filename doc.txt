@@ -1,0 +1,14 @@
+npm init
+git init
+.gitignore
+npm install express body-parser knex pg
+create app.js
+create database lkpc_asset_db
+knex init on terminal => knexfile.js created
+knex migrate:make create-location on terminal => migrations/create-loction function created
+code function in create-location(create table, drop)
+knex migrate:latest on terminal => table created
+knex seed:make 01_location => seeds/01_location.js created
+create code for seed data
+knex seed:run on terminal
+code app.js
